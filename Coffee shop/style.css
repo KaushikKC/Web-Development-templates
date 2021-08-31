@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+    height: 101px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+    position: relative;
+}
+
+.logo {
+    height: 51px;
+    width: 51px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.find-store i {
+    padding: 8px;
+    font-size: 24px;
+}
+
+.find-store:hover {
+    color: #008248;
+}
+
+.sign-in, .join-now {
+    padding: 7px 16px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2rem;
+    cursor: pointer;
+}
+
+.sign-in {
+    margin-right: 18px;
+    transition: all .2s ease;
+}
+
+.sign-in:hover {
+    background-color: rgba(0,0,0,.06);
+}
+
+.join-now {
+    background-color: #111;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.join-now:hover {
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
