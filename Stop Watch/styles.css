@@ -1,0 +1,51 @@
+
+main{
+  background-color: black;
+  width: 40%;
+  min-width: 500px;
+  padding: 50px 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+}
+
+.Time-Display {
+  background-color: #0048ce;
+  width: 110%;
+  position: relative;
+  left: -5%;
+  text-align: center;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+}
+
+.Button{
+  width: 80%;
+  margin: 60px auto 0 auto;
+  justify-content: space-around;
+  display: flex;
+}
+
+.Button button{
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+button:hover{
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,60 @@
+
+
+
+
+body{
+  align-items: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.container{
+  margin: auto;
+
+}
+
+.span {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+h2{
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  margin: 0 10px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8rem;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 2px 3px black;
+  border-radius: 0.3rem;
+  display: inline-block;
+}
+
+.btn:hover{
+  color: white;
+  background-color: black;
+}
+
+.btn-outline-dark{
+
+}
